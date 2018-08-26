@@ -19,6 +19,9 @@ func TestBinChar(t *testing.T) {
 		}, {
 			input: 5,
 			want:  "101",
+		}, {
+			input: 7,
+			want: "111",
 		},
 	}
 	for _, test := range tests {
